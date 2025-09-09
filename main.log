@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.9.8)  9 SEP 2025 14:25
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.9.8)  9 SEP 2025 16:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1156,11 +1156,11 @@ File: Figures/std_demand_supply_LP.pdf Graphic file (type pdf)
 [9]
 File: Figures/kelley_demand_supply_LP.pdf Graphic file (type pdf)
 <use Figures/kelley_demand_supply_LP.pdf>
-File: Figures/asymmetric_IRFs.pdf Graphic file (type pdf)
-<use Figures/asymmetric_IRFs.pdf>
 
 
 [10]
+File: Figures/asymmetric_IRFs.pdf Graphic file (type pdf)
+<use Figures/asymmetric_IRFs.pdf>
 File: Figures/State_Dependent_IRFs_with_CI_Final2.pdf Graphic file (type pdf)
 <use Figures/State_Dependent_IRFs_with_CI_Final2.pdf>
 
@@ -1183,7 +1183,7 @@ File: Figures/high_low_LP_channels_US.pdf Graphic file (type pdf)
 [17]
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 508--509
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
 
  []
 
@@ -1235,7 +1235,7 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  25181 strings out of 403265
  487092 string characters out of 5465578
- 1492483 words of memory out of 5000000
+ 1492467 words of memory out of 5000000
  53299 multiletter control sequences out of 15000+600000
  639659 words of font info for 123 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

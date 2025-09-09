@@ -137,6 +137,7 @@ We examine the contribution of supply and demand shocks to income inequality in 
 % - Reworked contribution to be in two parts: inequality and shock transmission
 % - Extra referencing done in the contribution
 % - Revised the description of the results (summary)
+% - Overall editing polish on articles and commas
 
 % WIP revision - done
 \section{Introduction}
@@ -171,7 +172,7 @@ The paper is structured as follows. Section 2 describes data and methodology. Se
 % - Moved Tables from Appendix to main text
 % - Added necessary text descriptions
 % - Added VAR algebra
-% - Revised Table 1 to include Kelly and Std
+% - Revised Table 1 to include Kelley and Std
 
 % WIP revision - done
 \section{Methodology}
@@ -318,7 +319,7 @@ Finally, all estimations use Driscoll-Kraay standard errors in reporting confide
 % - Added additional results for Kelly and Std
 
 \section{Results}
-We report our results as follows. First, we estimate the baseline responses of the Gini coefficient computed for the entire working-age population to unanticipated, one-standard-deviation change in US and domestic shocks. Next, we extend our baseline analysis to two measures of the income distribution. Namely, we replace the Gini coefficient with: i) the standard deviation of these changes, which captures the overall income volatility, and ii) the Kelley skewness of residual one-year log income changes, which measures the asymmetry of income risk. Second, we present the results for the transmission channels of US shocks. Specifically, we capture the state-dependency by including a linear interaction term with the three measures representing trade, financial, and expectations channels.
+We report our results as follows. First, we estimate the baseline responses of the log of Gini to unanticipated, one-standard-deviation change in US and domestic shocks. Next, we extend our baseline analysis to two measures of the income distribution. Namely, we replace the Gini with: i) the standard deviation of these changes, which captures the overall income volatility, and ii) the Kelley skewness of residual one-year log income changes, which measures the asymmetry of income risk. Second, we present the results for the transmission channels of US shocks. Specifically, we capture the state-dependency by including a linear interaction term with the three measures representing trade, financial, and expectations channels.
 
 %Finally, we check robustness of our baseline estimates by including additional controls related to alternative drivers of inequality.
 
@@ -328,8 +329,6 @@ We report our results as follows. First, we estimate the baseline responses of t
 The upper row of Figure \ref{fig:demand_supply_base} displays the responses of the log of Gini to demand and supply shocks originating in the US. US demand shock leads to a significant and long-lasting increase (up to 40 basis points) in income inequality. US supply shocks produce much smaller increases in income inequality (up to 25 basis points). Domestic shocks, whether demand or supply, produce IRF in the vicinity of 5 basis points, as shown in the bottom row of Figure  \ref{fig:demand_supply_base}. The direction is less clear than in the case of US shocks. Domestic demand shocks produce an initial hike that quickly vanishes, whereas domestic supply shocks tend to decrease inequality at longer horizons. Overall, domestic demand shocks generate an increase in inequality, though responses remain lower than those to US shocks. Moreover, estimates from the intermediate specification suggest that responses are driven (partly) by sample composition. 
 
 % Figure 2 + 3 description
-
-% Figure 4 - procyclical
 
 % Baseline result
 \begin{figure}[H]
@@ -360,19 +359,14 @@ We conduct a number of robustness exercises. First, we evaluate the evolution of
     \centering \caption*{Note: shaded areas represent 68\% Driscoll-Kraay confidence bands.}
 \end{figure}
 
-% Asymetric shocks
-\begin{figure}[H]
-    \centering
-    \caption{Cumulative state-dependent impulse responses to positive and negative US demand and supply shocks: Gini.}
-    \label{fig:demand_supply_asym}
-    \includegraphics[width=0.80\textwidth]{Figures/asymmetric_IRFs.pdf}
-    \centering \caption*{Note: shaded areas represent 68\% Driscoll-Kraay confidence bands.}
-\end{figure}
 
 %Estimations are noisier, though, and any conclusion should be taken with some salt.      %We interpret the behavior of the demand shock by the existing inter-market dependencies across our sample, where changes in US demand have a strong impact abroad. As employment is linked with income and current consumption, we think US consumption of foreign goods and services is the main driver behind these responses. This finding is also in line with the existing evidence on economic co-movement between booms and busts occurring in the US vis-a-vis the world \parencite{Kose2003, Kose2012, Fink2015}. 
 
 \subsection{Channels}
-In Figure \ref{fig:demand_supply_channels_ag}, we study the three potential transmission channels: trade linkages \parencite{corsetti2011multilateral}, financial markets integration \parencite{faccini2016international}, and expectations \parencite{klein2021real}. None of these channels explains variation in responses to demand shocks. By contrast, supply shocks produce heterogeneous responses based on exposure. When countries have strong export links a US supply shock leads to a large and persistent increase in inequality. Second, countries with strong financial links observe a short-lived increase in inequality during the first period after the shock, whereas countries with weaker links observe a gradual increase in inequality during the entire estimation horizon. Lastly, lower business confidence in home country is associated with a more pronounced inequality response. As an extension of our state-dependent results, we perform a data-driven subsample split using country-level median values of channel measure and estimate our baseline specification (see Figure \ref{fig:demand_supply_channels}). When splitting the countries, demand shocks appear more differentiated by trade level, countries above the median in the initial year have a stronger reaction. 
+% Asymmetric shocks
+Before studying the transmission channels, we check the reaction of the Gini to positive and negative US shocks (see Figure \ref{fig:demand_supply_asym}). In line with the current empirical evidence, we find that the reaction is largely procyclical, this is especially noticable for US supply shocks. On the other hand, negative US demand shocks are mostly insignificant with a small positive kink at $t+3$ period.
+
+Next, in Figure \ref{fig:demand_supply_channels_ag}, we study the three potential transmission channels: trade linkages \parencite{corsetti2011multilateral}, financial markets integration \parencite{faccini2016international}, and expectations \parencite{klein2021real}. None of these channels explains variation in responses to demand shocks. By contrast, supply shocks produce heterogeneous responses based on exposure. When countries have strong export links a US supply shock leads to a large and persistent increase in inequality. Second, countries with strong financial links observe a short-lived increase in inequality during the first period after the shock, whereas countries with weaker links observe a gradual increase in inequality during the entire estimation horizon. Lastly, lower business confidence in home country is associated with a more pronounced inequality response. As an extension of our state-dependent results, we perform a data-driven subsample split using country-level median values of channel measure and estimate our baseline specification (see Figure \ref{fig:demand_supply_channels}). When splitting the countries, demand shocks appear more differentiated by trade level, countries above the median in the initial year have a stronger reaction. 
 
 % Can the result be framed in relation to the other studies?
 
@@ -398,6 +392,14 @@ In Figure \ref{fig:demand_supply_channels_ag}, we study the three potential tran
 % Gender
 %As another robustness, we study whether Gini coefficients obtained from subpopulations exhibit similar responses. Figures \ref{fig:demand_supply_gender_base} and  \ref{fig:demand_supply_gender_robust} (Appendix) mirror the results obtained for the entire population with a noticeable gap between two subpopulations for the US demand shock, income inequality grows faster for men, than for women, which can be attributed to the variability in earnings among men in our sample (see Table \ref{table:a5} for reference). 
 
+% Asymetric shocks
+\begin{figure}[H]
+    \centering
+    \caption{Cumulative impulse responses to positive and negative US demand and supply shocks: Gini.}
+    \label{fig:demand_supply_asym}
+    \includegraphics[width=0.80\textwidth]{Figures/asymmetric_IRFs.pdf}
+    \centering \caption*{Note: shaded areas represent 68\% Driscoll-Kraay confidence bands.}
+\end{figure}
 
 % Auerbach - Gorodnichenko state-dependency
 \begin{figure}[H]
