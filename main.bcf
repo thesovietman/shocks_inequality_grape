@@ -3139,11 +3139,14 @@
     <bcf:citekey order="26" intorder="1">blanchard1989dynamic</bcf:citekey>
     <bcf:citekey order="27" intorder="1">auerbach2013output</bcf:citekey>
     <bcf:citekey order="28" intorder="1">auerbach2013output</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">corsetti2011multilateral</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">faccini2016international</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">klein2021real</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">Gygli2019</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">Kose2003</bcf:citekey>
+    <bcf:citekey order="29" intorder="2">Kose2012</bcf:citekey>
+    <bcf:citekey order="29" intorder="3">Fink2015</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">corsetti2011multilateral</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">faccini2016international</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">klein2021real</bcf:citekey>
     <bcf:citekey order="33" intorder="1">Gygli2019</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Gygli2019</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
