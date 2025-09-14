@@ -302,6 +302,42 @@
       \verb 10.1016/j.ememar.2021.100875
       \endverb
     \endentry
+    \entry{bayoumi1992shocking}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=744517baff067ba1e78fe7b0c13b0436}{%
+           family={Bayoumi},
+           familyi={B\bibinitperiod},
+           given={Tamim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4d61c3fbb6caa6fbfa7f45bda4630b4}{%
+           family={Eichengreen},
+           familyi={E\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Bureau of Economic Research Cambridge, Mass., USA}%
+      }
+      \strng{namehash}{734fb3c82f6a3460aa0471da02c3e426}
+      \strng{fullhash}{734fb3c82f6a3460aa0471da02c3e426}
+      \strng{fullhashraw}{734fb3c82f6a3460aa0471da02c3e426}
+      \strng{bibnamehash}{734fb3c82f6a3460aa0471da02c3e426}
+      \strng{authorbibnamehash}{734fb3c82f6a3460aa0471da02c3e426}
+      \strng{authornamehash}{734fb3c82f6a3460aa0471da02c3e426}
+      \strng{authorfullhash}{734fb3c82f6a3460aa0471da02c3e426}
+      \strng{authorfullhashraw}{734fb3c82f6a3460aa0471da02c3e426}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Shocking aspects of European monetary unification}
+      \field{year}{1992}
+    \endentry
     \entry{Binet2015}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c9da7b394a4e74f6881f7f7415f55481}{%
@@ -475,6 +511,44 @@
       \range{pages}{33}
       \verb{doi}
       \verb 10.1016/j.jimonfin.2015.02.016
+      \endverb
+    \endentry
+    \entry{canova2005transmission}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb6e9180c0547fbbd0a8cd1bd07a9521}{%
+           family={Canova},
+           familyi={C\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \strng{fullhash}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \strng{fullhashraw}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \strng{bibnamehash}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \strng{authorbibnamehash}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \strng{authornamehash}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \strng{authorfullhash}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \strng{authorfullhashraw}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Econometrics}
+      \field{number}{2}
+      \field{title}{{The transmission of US shocks to Latin America}}
+      \field{volume}{20}
+      \field{year}{2005}
+      \field{pages}{229\bibrangedash 251}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1002/jae.837
       \endverb
     \endentry
     \entry{carrillo2020inquiry}{article}{}{}
@@ -657,6 +731,55 @@
       \range{pages}{13}
       \verb{doi}
       \verb 10.1016/j.econmod.2017.05.011
+      \endverb
+    \endentry
+    \entry{dedola2017if}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=300f14747d853309da4c95e1de0bf85f}{%
+           family={Dedola},
+           familyi={D\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d997248be0997ee252620f551b58dd7e}{%
+           family={Rivolta},
+           familyi={R\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=181a8dcfe7df393a2c88951ed1b256be}{%
+           family={Stracca},
+           familyi={S\bibinitperiod},
+           given={Livio},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5786ffbb85dd4419fcd4f6b45f6e52de}
+      \strng{fullhash}{fbe676478f6de48899ac0a62807d6ff8}
+      \strng{fullhashraw}{fbe676478f6de48899ac0a62807d6ff8}
+      \strng{bibnamehash}{fbe676478f6de48899ac0a62807d6ff8}
+      \strng{authorbibnamehash}{fbe676478f6de48899ac0a62807d6ff8}
+      \strng{authornamehash}{5786ffbb85dd4419fcd4f6b45f6e52de}
+      \strng{authorfullhash}{fbe676478f6de48899ac0a62807d6ff8}
+      \strng{authorfullhashraw}{fbe676478f6de48899ac0a62807d6ff8}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of International Economics}
+      \field{title}{{If the Fed sneezes, who catches a cold?}}
+      \field{volume}{108}
+      \field{year}{2017}
+      \field{pages}{S23\bibrangedash S41}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.jinteco.2017.01.002
       \endverb
     \endentry
     \entry{dees2021global}{article}{}{}
@@ -845,55 +968,6 @@
       \field{year}{2003}
       \field{pages}{146\bibrangedash 185}
       \range{pages}{40}
-    \endentry
-    \entry{fernandez2017world}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=86140494ad410d093d5e3644ffc2c236}{%
-           family={Fernández},
-           familyi={F\bibinitperiod},
-           given={Andrés},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=105e0601ba66b3726b7d4c5067680e71}{%
-           family={Schmitt-Grohé},
-           familyi={S\bibinithyphendelim G\bibinitperiod},
-           given={Stephanie},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=72a17a675e02504f9da128ba7be5a931}{%
-           family={Uribe},
-           familyi={U\bibinitperiod},
-           given={Martín},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{1c9fa855f68ebacf2d6e72ab4d72eca2}
-      \strng{fullhash}{e82ed86561daac7b402d51e7b566f9fd}
-      \strng{fullhashraw}{e82ed86561daac7b402d51e7b566f9fd}
-      \strng{bibnamehash}{e82ed86561daac7b402d51e7b566f9fd}
-      \strng{authorbibnamehash}{e82ed86561daac7b402d51e7b566f9fd}
-      \strng{authornamehash}{1c9fa855f68ebacf2d6e72ab4d72eca2}
-      \strng{authorfullhash}{e82ed86561daac7b402d51e7b566f9fd}
-      \strng{authorfullhashraw}{e82ed86561daac7b402d51e7b566f9fd}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of International Economics}
-      \field{title}{{World shocks, world prices, and business cycles: An empirical investigation}}
-      \field{volume}{108}
-      \field{year}{2017}
-      \field{pages}{S2\bibrangedash S14}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1016/j.jinteco.2017.01.001
-      \endverb
     \endentry
     \entry{Fink2015}{article}{}{}
       \name{author}{2}{}{%
@@ -1683,7 +1757,7 @@
       \verb 10.1016/j.jinteco.2023.103830
       \endverb
     \endentry
-    \entry{LASTAUSKAS2024101956}{article}{}{}
+    \entry{lastaukas2024}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=d88ff7698600e2b6d4b4e65db27e8e4c}{%
            family={Lastauskas},
@@ -1767,6 +1841,44 @@
       \range{pages}{40}
       \verb{doi}
       \verb 10.1093/jeea/jvy044
+      \endverb
+    \endentry
+    \entry{mackowiak2007external}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8ad7f8a8b8882e21e0aec9e248685221}{%
+           family={Maćkowiak},
+           familyi={M\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8ad7f8a8b8882e21e0aec9e248685221}
+      \strng{fullhash}{8ad7f8a8b8882e21e0aec9e248685221}
+      \strng{fullhashraw}{8ad7f8a8b8882e21e0aec9e248685221}
+      \strng{bibnamehash}{8ad7f8a8b8882e21e0aec9e248685221}
+      \strng{authorbibnamehash}{8ad7f8a8b8882e21e0aec9e248685221}
+      \strng{authornamehash}{8ad7f8a8b8882e21e0aec9e248685221}
+      \strng{authorfullhash}{8ad7f8a8b8882e21e0aec9e248685221}
+      \strng{authorfullhashraw}{8ad7f8a8b8882e21e0aec9e248685221}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of monetary economics}
+      \field{number}{8}
+      \field{title}{{External shocks, US monetary policy and macroeconomic fluctuations in emerging markets}}
+      \field{volume}{54}
+      \field{year}{2007}
+      \field{pages}{2512\bibrangedash 2520}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.jmoneco.2007.06.021
       \endverb
     \endentry
     \entry{miranda2022global}{inbook}{}{}
@@ -1881,50 +1993,6 @@
       \range{pages}{30}
       \verb{doi}
       \verb 10.1057/imfer.2016.4
-      \endverb
-    \endentry
-    \entry{schmitt2018important}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=105e0601ba66b3726b7d4c5067680e71}{%
-           family={Schmitt-Grohé},
-           familyi={S\bibinithyphendelim G\bibinitperiod},
-           given={Stephanie},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=72a17a675e02504f9da128ba7be5a931}{%
-           family={Uribe},
-           familyi={U\bibinitperiod},
-           given={Martín},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{d32b033b673f82a351d8f6b959a8688a}
-      \strng{fullhash}{d32b033b673f82a351d8f6b959a8688a}
-      \strng{fullhashraw}{d32b033b673f82a351d8f6b959a8688a}
-      \strng{bibnamehash}{d32b033b673f82a351d8f6b959a8688a}
-      \strng{authorbibnamehash}{d32b033b673f82a351d8f6b959a8688a}
-      \strng{authornamehash}{d32b033b673f82a351d8f6b959a8688a}
-      \strng{authorfullhash}{d32b033b673f82a351d8f6b959a8688a}
-      \strng{authorfullhashraw}{d32b033b673f82a351d8f6b959a8688a}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Economic Review}
-      \field{number}{1}
-      \field{title}{{How important are terms-of-trade shocks?}}
-      \field{volume}{59}
-      \field{year}{2018}
-      \field{pages}{85\bibrangedash 111}
-      \range{pages}{27}
-      \verb{doi}
-      \verb 10.1111/iere.12263
       \endverb
     \endentry
   \enddatalist
@@ -2212,6 +2280,42 @@
       \verb 10.1016/j.ememar.2021.100875
       \endverb
     \endentry
+    \entry{bayoumi1992shocking}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=744517baff067ba1e78fe7b0c13b0436}{%
+           family={Bayoumi},
+           familyi={B\bibinitperiod},
+           given={Tamim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4d61c3fbb6caa6fbfa7f45bda4630b4}{%
+           family={Eichengreen},
+           familyi={E\bibinitperiod},
+           given={Barry},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Bureau of Economic Research Cambridge, Mass., USA}%
+      }
+      \strng{namehash}{734fb3c82f6a3460aa0471da02c3e426}
+      \strng{fullhash}{734fb3c82f6a3460aa0471da02c3e426}
+      \strng{fullhashraw}{734fb3c82f6a3460aa0471da02c3e426}
+      \strng{bibnamehash}{734fb3c82f6a3460aa0471da02c3e426}
+      \strng{authorbibnamehash}{734fb3c82f6a3460aa0471da02c3e426}
+      \strng{authornamehash}{734fb3c82f6a3460aa0471da02c3e426}
+      \strng{authorfullhash}{734fb3c82f6a3460aa0471da02c3e426}
+      \strng{authorfullhashraw}{734fb3c82f6a3460aa0471da02c3e426}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Shocking aspects of European monetary unification}
+      \field{year}{1992}
+    \endentry
     \entry{Binet2015}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c9da7b394a4e74f6881f7f7415f55481}{%
@@ -2385,6 +2489,44 @@
       \range{pages}{33}
       \verb{doi}
       \verb 10.1016/j.jimonfin.2015.02.016
+      \endverb
+    \endentry
+    \entry{canova2005transmission}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb6e9180c0547fbbd0a8cd1bd07a9521}{%
+           family={Canova},
+           familyi={C\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \strng{fullhash}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \strng{fullhashraw}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \strng{bibnamehash}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \strng{authorbibnamehash}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \strng{authornamehash}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \strng{authorfullhash}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \strng{authorfullhashraw}{fb6e9180c0547fbbd0a8cd1bd07a9521}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Econometrics}
+      \field{number}{2}
+      \field{title}{{The transmission of US shocks to Latin America}}
+      \field{volume}{20}
+      \field{year}{2005}
+      \field{pages}{229\bibrangedash 251}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1002/jae.837
       \endverb
     \endentry
     \entry{carrillo2020inquiry}{article}{}{}
@@ -2567,6 +2709,55 @@
       \range{pages}{13}
       \verb{doi}
       \verb 10.1016/j.econmod.2017.05.011
+      \endverb
+    \endentry
+    \entry{dedola2017if}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=300f14747d853309da4c95e1de0bf85f}{%
+           family={Dedola},
+           familyi={D\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d997248be0997ee252620f551b58dd7e}{%
+           family={Rivolta},
+           familyi={R\bibinitperiod},
+           given={Giulia},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=181a8dcfe7df393a2c88951ed1b256be}{%
+           family={Stracca},
+           familyi={S\bibinitperiod},
+           given={Livio},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5786ffbb85dd4419fcd4f6b45f6e52de}
+      \strng{fullhash}{fbe676478f6de48899ac0a62807d6ff8}
+      \strng{fullhashraw}{fbe676478f6de48899ac0a62807d6ff8}
+      \strng{bibnamehash}{fbe676478f6de48899ac0a62807d6ff8}
+      \strng{authorbibnamehash}{fbe676478f6de48899ac0a62807d6ff8}
+      \strng{authornamehash}{5786ffbb85dd4419fcd4f6b45f6e52de}
+      \strng{authorfullhash}{fbe676478f6de48899ac0a62807d6ff8}
+      \strng{authorfullhashraw}{fbe676478f6de48899ac0a62807d6ff8}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of International Economics}
+      \field{title}{{If the Fed sneezes, who catches a cold?}}
+      \field{volume}{108}
+      \field{year}{2017}
+      \field{pages}{S23\bibrangedash S41}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.jinteco.2017.01.002
       \endverb
     \endentry
     \entry{dees2021global}{article}{}{}
@@ -2755,55 +2946,6 @@
       \field{year}{2003}
       \field{pages}{146\bibrangedash 185}
       \range{pages}{40}
-    \endentry
-    \entry{fernandez2017world}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=86140494ad410d093d5e3644ffc2c236}{%
-           family={Fernández},
-           familyi={F\bibinitperiod},
-           given={Andrés},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=105e0601ba66b3726b7d4c5067680e71}{%
-           family={Schmitt-Grohé},
-           familyi={S\bibinithyphendelim G\bibinitperiod},
-           given={Stephanie},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=72a17a675e02504f9da128ba7be5a931}{%
-           family={Uribe},
-           familyi={U\bibinitperiod},
-           given={Martín},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{1c9fa855f68ebacf2d6e72ab4d72eca2}
-      \strng{fullhash}{e82ed86561daac7b402d51e7b566f9fd}
-      \strng{fullhashraw}{e82ed86561daac7b402d51e7b566f9fd}
-      \strng{bibnamehash}{e82ed86561daac7b402d51e7b566f9fd}
-      \strng{authorbibnamehash}{e82ed86561daac7b402d51e7b566f9fd}
-      \strng{authornamehash}{1c9fa855f68ebacf2d6e72ab4d72eca2}
-      \strng{authorfullhash}{e82ed86561daac7b402d51e7b566f9fd}
-      \strng{authorfullhashraw}{e82ed86561daac7b402d51e7b566f9fd}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of International Economics}
-      \field{title}{{World shocks, world prices, and business cycles: An empirical investigation}}
-      \field{volume}{108}
-      \field{year}{2017}
-      \field{pages}{S2\bibrangedash S14}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1016/j.jinteco.2017.01.001
-      \endverb
     \endentry
     \entry{Fink2015}{article}{}{}
       \name{author}{2}{}{%
@@ -3593,7 +3735,7 @@
       \verb 10.1016/j.jinteco.2023.103830
       \endverb
     \endentry
-    \entry{LASTAUSKAS2024101956}{article}{}{}
+    \entry{lastaukas2024}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=d88ff7698600e2b6d4b4e65db27e8e4c}{%
            family={Lastauskas},
@@ -3677,6 +3819,44 @@
       \range{pages}{40}
       \verb{doi}
       \verb 10.1093/jeea/jvy044
+      \endverb
+    \endentry
+    \entry{mackowiak2007external}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8ad7f8a8b8882e21e0aec9e248685221}{%
+           family={Maćkowiak},
+           familyi={M\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{8ad7f8a8b8882e21e0aec9e248685221}
+      \strng{fullhash}{8ad7f8a8b8882e21e0aec9e248685221}
+      \strng{fullhashraw}{8ad7f8a8b8882e21e0aec9e248685221}
+      \strng{bibnamehash}{8ad7f8a8b8882e21e0aec9e248685221}
+      \strng{authorbibnamehash}{8ad7f8a8b8882e21e0aec9e248685221}
+      \strng{authornamehash}{8ad7f8a8b8882e21e0aec9e248685221}
+      \strng{authorfullhash}{8ad7f8a8b8882e21e0aec9e248685221}
+      \strng{authorfullhashraw}{8ad7f8a8b8882e21e0aec9e248685221}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of monetary economics}
+      \field{number}{8}
+      \field{title}{{External shocks, US monetary policy and macroeconomic fluctuations in emerging markets}}
+      \field{volume}{54}
+      \field{year}{2007}
+      \field{pages}{2512\bibrangedash 2520}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.jmoneco.2007.06.021
       \endverb
     \endentry
     \entry{miranda2022global}{inbook}{}{}
@@ -3791,50 +3971,6 @@
       \range{pages}{30}
       \verb{doi}
       \verb 10.1057/imfer.2016.4
-      \endverb
-    \endentry
-    \entry{schmitt2018important}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=105e0601ba66b3726b7d4c5067680e71}{%
-           family={Schmitt-Grohé},
-           familyi={S\bibinithyphendelim G\bibinitperiod},
-           given={Stephanie},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=72a17a675e02504f9da128ba7be5a931}{%
-           family={Uribe},
-           familyi={U\bibinitperiod},
-           given={Martín},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley Online Library}%
-      }
-      \strng{namehash}{d32b033b673f82a351d8f6b959a8688a}
-      \strng{fullhash}{d32b033b673f82a351d8f6b959a8688a}
-      \strng{fullhashraw}{d32b033b673f82a351d8f6b959a8688a}
-      \strng{bibnamehash}{d32b033b673f82a351d8f6b959a8688a}
-      \strng{authorbibnamehash}{d32b033b673f82a351d8f6b959a8688a}
-      \strng{authornamehash}{d32b033b673f82a351d8f6b959a8688a}
-      \strng{authorfullhash}{d32b033b673f82a351d8f6b959a8688a}
-      \strng{authorfullhashraw}{d32b033b673f82a351d8f6b959a8688a}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Economic Review}
-      \field{number}{1}
-      \field{title}{{How important are terms-of-trade shocks?}}
-      \field{volume}{59}
-      \field{year}{2018}
-      \field{pages}{85\bibrangedash 111}
-      \range{pages}{27}
-      \verb{doi}
-      \verb 10.1111/iere.12263
       \endverb
     \endentry
   \enddatalist
