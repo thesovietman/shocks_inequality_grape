@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.9.8)  14 SEP 2025 23:53
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex 2025.9.8)  15 SEP 2025 20:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1184,18 +1184,19 @@ File: Figures/robust_BQBE_demand_supply_LP.pdf Graphic file (type pdf)
 <use Figures/robust_BQBE_demand_supply_LP.pdf>
 File: Figures/robust_std_BQBE_demand_supply_LP.pdf Graphic file (type pdf)
 <use Figures/robust_std_BQBE_demand_supply_LP.pdf>
-File: Figures/robust_kelley_BQBE_demand_supply_LP.pdf Graphic file (type pdf)
-<use Figures/robust_kelley_BQBE_demand_supply_LP.pdf>
 
 
 [15]
+File: Figures/robust_kelley_BQBE_demand_supply_LP.pdf Graphic file (type pdf)
+<use Figures/robust_kelley_BQBE_demand_supply_LP.pdf>
+
 
 [16]
 
 [17]
 
 [18]
-Overfull \hbox (6.07845pt too wide) in paragraph at lines 473--473
+Overfull \hbox (6.07845pt too wide) in paragraph at lines 477--477
 [][]\TU/PalatinoLinotype(0)/m/n/12 Di Giovanni, J., Kalemli-Özcan, Ş., Ulu, M. 
 F., & Baskaya, Y. S. (2022). International spillovers
  []
@@ -1203,7 +1204,7 @@ F., & Baskaya, Y. S. (2022). International spillovers
 
 
 [19]
-Overfull \hbox (2.13258pt too wide) in paragraph at lines 473--473
+Overfull \hbox (2.13258pt too wide) in paragraph at lines 477--477
 [][]\TU/PalatinoLinotype(0)/m/n/12 Rey, H. (2016). International Channels of Tr
 ansmission of Monetary Policy and the Mundel-
  []
@@ -1213,7 +1214,7 @@ ansmission of Monetary Policy and the Mundel-
 [20]
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 538--539
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
 
  []
 
@@ -1257,16 +1258,16 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-19>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 77067DDF642F74FB27F6874A99F93CBF;1429.
+(rerunfilecheck)             Checksum: E7A84B22D945B566C9C2D631C63B2741;1442.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24843 strings out of 403265
- 483878 string characters out of 5465578
- 1480489 words of memory out of 5000000
- 52960 multiletter control sequences out of 15000+600000
+ 24844 strings out of 403265
+ 483899 string characters out of 5465578
+ 1480567 words of memory out of 5000000
+ 52961 multiletter control sequences out of 15000+600000
  639659 words of font info for 123 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  83i,11n,131p,1985b,5446s stack positions out of 10000i,1000n,20000p,200000b,200000s

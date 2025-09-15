@@ -3,8 +3,8 @@
 % =================================================================
 % CORE SETUP (Encoding, Fonts, Layout)
 % =================================================================
-\usepackage{fontspec}    % UTF-8 encoding for source file
-\setmainfont{Palatino Linotype}           % Palatino font for a professional look
+\usepackage{fontspec}
+\setmainfont{Palatino Linotype} % Palatino font
 \linespread{1.3}                % Increased line spacing
 \usepackage[margin=2.2cm]{geometry} % Page margins
 \usepackage{ragged2e, setspace}  % Text alignment and spacing
@@ -54,7 +54,7 @@
 \usepackage[colorlinks=true, citecolor=blue, linkcolor=black, urlcolor=blue]{hyperref}
 
 
-\title{Shocks and income inequality\thanks{Corresponding author: Oleg Gurshev. Email: o.gurshev@grape.org.pl.\\Financial support from the Polish National Science Center (grant no. 2021/43/B/HS4/03241) is gratefully acknowledged.}}% grant statement
+\title{Shocks and income inequality\thanks{Corresponding author: Oleg Gurshev. Email: o.gurshev@grape.org.pl.\\Financial support from the Polish National Science Centre (grant no. 2021/43/B/HS4/03241) is gratefully acknowledged.}}% grant statement
 \author{
     Oleg Gurshev  \\ 
     \small{FAME$\mid$GRAPE} 
@@ -122,7 +122,7 @@ At the same time, understanding the origins of international fluctuations contin
 This paper studies how income distributions react to supply and demand shocks originating in the U.S. and within national economies. To this end, we draw on a rich cross-country database: the Global Repository of Income Dynamics (GRID) by \textcite{guvenen2022global}. This database contains comparable moments of income distributions of unparalleled quality derived from administrative data. Our study analyzes data from countries that participated in the first phase of GRID and meet the minimum data requirements needed for the estimation of shocks: Canada, Denmark, France, Germany, Italy, Mexico, Norway, Spain, and Sweden.
 
 % Methodology
-Our analysis proceeds as follows. First, we estimate supply and demand shocks using long-run restrictions\footnote{See characterization of popular identification strategies in \textcite{ramey2016macroeconomic}.} as proposed by \textcite{blanchard1989dynamic}\footnote{This seminal paper has been revisited by \textcite{Binet2015, Herwartz2018, Keating2013}.}. We adopt this approach because its data requirements are minimal, making it particularly suitable for our broad international setting. Specifically, this method imposes restrictions based on economic theory, where supply shocks are assumed to have permanent effects on output, while demand shocks have only temporary effects. We later test the sensitivity of our findings to the type of U.S. demand shocks being used by re-estimating demand shocks using the seminal approach of \textcite{bayoumi1992shocking}. The second step involves estimating the response of income dispersion to U.S. and country-specific (domestic) shocks using impulse response functions (IRFs) estimated directly from local projections \parencite{jorda2005estimation, jorda2024local}. In this step, we also study the reaction of the income distribution, measured by the standard deviation and the Kelley skewness of the residual first-year log income changes, to these shocks. Finally, we study the three potential transmission channels that are frequently identified in the literature: trade linkages \parencite{corsetti2011multilateral}, financial market integration \parencite{faccini2016international}, and expectations \parencite{klein2021real} using state-dependent local projections in the style of \textcite{auerbach2013output}.
+Our analysis proceeds as follows. First, we estimate supply and demand shocks using long-run restrictions\footnote{See characterization of popular identification strategies in \textcite{ramey2016macroeconomic}.} as proposed by \textcite{blanchard1989dynamic}\footnote{This seminal paper has been revisited by \textcite{Binet2015, Herwartz2018, Keating2013}.}. We adopt this approach because its data requirements are minimal, making it particularly suitable for our broad international setting. Specifically, this method imposes restrictions based on economic theory, where supply shocks are assumed to have permanent effects on output, while demand shocks have only temporary effects. We later test the sensitivity of our findings to the type of U.S. demand shock being used by estimating an alternative demand shock using the seminal approach of \textcite{bayoumi1992shocking}. The second step involves estimating the response of income dispersion to U.S. and country-specific (domestic) shocks using impulse response functions (IRFs) estimated directly from local projections \parencite{jorda2005estimation, jorda2024local}. In this step, we also study the reaction of the income distribution, measured by the standard deviation and the Kelley skewness of the residual first-year log income changes, to these shocks. Finally, we study the three potential transmission channels that are frequently identified in the literature: trade linkages \parencite{corsetti2011multilateral}, financial market integration \parencite{faccini2016international}, and expectations \parencite{klein2021real} using state-dependent local projections in the style of \textcite{auerbach2013output}.
 
 % Result description - WIP
 Our findings indicate that supply and demand shocks originating in the U.S. tend to raise income dispersion abroad. We also confirm that these changes are largely procyclical. Decomposing these dynamics reveals that shocks primarily alter the asymmetry of income changes rather than the overall level of income volatility. While all shocks make the income distribution more positively skewed, the effect on volatility reveals a critical distinction: U.S. supply shock increases volatility, whereas domestic supply shock acts as a stabilizing force by significantly decreasing it. When considering transmission channels, the distinction between demand and supply shocks is relevant. Demand shock increases inequality regardless of the level of exposure. By contrast, domestic supply shock produces more heterogeneous response.
@@ -269,7 +269,7 @@ To study the impact of supply and demand shocks on (the level of) inequality, we
     y_{c,t+h}-y_{c,t-1} =  \beta^h z_{c,t} + \gamma^h_c + \gamma^h_t + \pi^h X_{c,t} + e^h_{c, t+h}
 \label{eq:1}
 \end{equation}
-\noindent where $y_{c,t+h}$ is the log of Gini for country $c$ measured at time $t+h$, $z_{c,t}$ is the exogenous shock, and $\beta^h$ are the estimated responses for $h = 0,..,3$ periods after the shock. The remaining elements identify country fixed effects ($\gamma^h_c$). The next term  ($\gamma^h_t$) addresses potential period differences. When analyzing domestic shocks, $\gamma^h_t$ represent time fixed effects. When shocks originate in the U.S. (and are common to all countries), $\gamma^h_t$ represents NBER-identified recessions in the U.S. (level and two lag values).
+\noindent where $y_{c,t+h}$ is the log of Gini for country $c$ measured at time $t+h$, $z_{c,t}$ is the exogenous shock, and $\beta^h$ are the estimated responses for $h = 0,..,3$ periods after the shock. The term $\gamma^h_c$ accounts for country-specific fixed effects, while $\gamma^h_t$ control for period-specific differences. For domestic shocks, $\gamma^h_t$ corresponds to time fixed effects. For shocks originating in the U.S. (which affect all countries), $\gamma^h_t$ captures NBER-identified recessions (including the level and two lags).
 
 Our baseline set of controls ($X_{c,t}$) includes two lags of: changes in inequality ($\Delta y_{c,t-i}$, for $i =1,2$) and exogenous shock used ($z_{c,t-i}$, for $i =1,2$), i.e. supply or demand. As a robustness check, we expand the set of control variables to include two lags of: i) share of exports to the U.S. to total exports (trade exposure), ii) share of U.S. bank claims to GDP (financial exposure), iii) changes in \textit{de facto} economic openness (proxied by the \textit{de facto} component of the KOF index), iv) expectations (proxied by the OECD's business confidence index), and v) changes in domestic labor market policies (proxied by the Economic Freedom of the World's indicator of labor market regulation), see Table \ref{table:a4} for details (Appendix A).
 
@@ -292,7 +292,7 @@ Finally, all estimations use Driscoll-Kraay standard errors in reporting confide
 % - Revised text to be more coherent
 
 \section{Results}
-We report our results as follows. First, we estimate the baseline responses of the log of Gini to unanticipated, one-standard-deviation change in a U.S. or domestic shock. Next, we extend our baseline analysis to two measures of the income distribution. Namely, we replace the Gini with: i) the standard deviation of these changes, which captures the overall income volatility, and ii) the Kelley skewness of residual one-year log income changes, which measures the asymmetry of income risk. Second, we present the results for the transmission channels of U.S. shocks. We motivate our investigation into channels by first examining the asymmetric impact of U.S. shocks, and then present the results from the state-dependent local projections. Finally, we assess the sensitivity of our findings to alternative demand shocks. Namely, we compare our original responses with added controls to the responses obtained using an alternative approach of \textcite{bayoumi1992shocking} to a U.S. demand shock.
+We report our results as follows. First, we estimate the baseline responses of the log of Gini to unanticipated, one-standard-deviation change in a U.S. or domestic shock. Next, we extend our baseline analysis to two measures of the income distribution. Namely, we replace the Gini with: i) the standard deviation of one-year log income changes, which captures the overall income volatility, and ii) the Kelley skewness of the same log income changes, which measures the asymmetry of income risk. Second, we present the results for the transmission channels of U.S. shocks. We motivate our investigation into channels by first examining the asymmetric impact of U.S. shocks, and then present the results from the state-dependent local projections. Finally, we assess the sensitivity of our findings to alternative demand shocks. Namely, we compare our original responses with added controls to the responses obtained using an alternative approach of \textcite{bayoumi1992shocking} that uses inflation as a proxy for a U.S. demand shock.
 
 %Finally, we check robustness of our baseline estimates by including additional controls related to alternative drivers of inequality.
 
@@ -407,11 +407,13 @@ In contrast, the transmission of demand shocks appears more nuanced. In our init
 \end{figure}
 
 % Idea for subsection 3.3
-\subsection{Sensitivity to alternative U.S. demand shocks}
-In this subsection, we test the sensitivity of our original results related to U.S. shocks by estimating a bivariate structural VAR for the U.S. economy using quarterly growth rates of real GDP and the seasonally adjusted CPI index in the spirit of \textcite{bayoumi1992shocking} (BE). This provides a systematic way to assess the extent to which our original results depend on the type of demand shock. We then input the obtained disturbances in equation (\ref{eq:1}) and compare the resulting cumulative responses of Gini, standard deviation, and Kelley skewness (with all controls) across the two sets of U.S. shocks (BQ and BE).
+\subsection{Sensitivity to an alternative U.S. demand shock}
+\label{section:sensitivity}
+In this subsection, we test the sensitivity of our original results related to U.S. shocks by estimating a bivariate VAR for the U.S. economy using de-meaned quarterly growth rates of real GDP and the seasonally adjusted CPI following \textcite{bayoumi1992shocking} (BE). This provides us with a systematic way to assess the extent to which our original results depend on the type of demand shock being used. Notably, the two U.S. demand shocks are quite different from each other, sharing only a 0.10 correlation. We input the estimated shocks into equation (\ref{eq:1}) and compare the resulting cumulative IRFs of Gini, standard deviation, and Kelley skewness (with all robustness controls for channels, changes in economic openness, and changes in domestic labor market policies) across the two sets of U.S. shocks (BQ and BE).
 
+Figure \ref{fig:bqbe_gini} plots the responses of log of Gini to BQ shocks (the upper row) and BE shocks (the bottom row). Overall, we find the results highly symmetric (both in shape and magnitude). We confirm that a U.S. demand shock, on average, leads to a statistically significant increase in the Gini, whereas a U.S. supply shock has an insignificant impact once all controls are included relative to the baseline estimation results.
 
-
+Next, we report the results for standard deviation and Kelley skewness. Figure \ref{fig:bqbe_std} presents the responses for income dispersion. Here, the impact of a U.S. demand shock carries notable differences: the BQ demand shock suggests a significant short-run decrease in dispersion, while the BE demand shock finds a delayed but large increase. The impact of both U.S. supply shocks remains relatively symmetric. The results for Kelley skewness, shown in Figure \ref{fig:bqbe_kelley}, are also nuanced. The finding that U.S. supply shocks robustly cause initial right-sided skewness is confirmed across both sets of shocks. In stark contrast, the effect of a U.S. demand shock is not symmetric. Specifically, the BE demand shock closely mirrors its supply counterpart, whereas the BQ demand shock resembles our baseline result, producing more asymmetry with a notable delay rather than initially. 
 
 % Side-by-side comparison between BE and BQ shocks with controls
 % Figure - US only -> Gini
@@ -422,6 +424,7 @@ In this subsection, we test the sensitivity of our original results related to U
     \includegraphics[width=0.75\textwidth]{Figures/robust_BQBE_demand_supply_LP.pdf}
     \centering \caption*{Note: shaded areas represent 68\% Driscoll-Kraay confidence bands.}
 \end{figure}
+
 % Figure - US only -> Std
 \begin{figure}[H]
     \centering    
@@ -430,6 +433,7 @@ In this subsection, we test the sensitivity of our original results related to U
     \includegraphics[width=0.75\textwidth]{Figures/robust_std_BQBE_demand_supply_LP.pdf}
     \centering \caption*{Note: shaded areas represent 68\% Driscoll-Kraay confidence bands.}
 \end{figure}
+
 % Figure - US only -> Kelley
 \begin{figure}[H]
     \centering    
@@ -501,7 +505,7 @@ Looking ahead, the expansion of detailed administrative data through projects li
     \end{tabular}
     \begin{minipage}{\textwidth}
     \vspace{0.1cm}
-    \footnotesize Note: own summary, all data are quarterly. For the USA, we used GDPC1 and UNRATE series. For OECD countries, we used quarterly real GDP (expenditure approach, in USD) and the quarterly unemployment rate (seasonally adjusted, working-age population).
+    \footnotesize Note: own summary, all data are quarterly. For the USA, we used GDPC1 and UNRATE series. For OECD countries, we used quarterly real GDP (expenditure approach, in USD) and the quarterly unemployment rate (seasonally adjusted, working-age population). For an alternative bivariate VAR specification that is estimated for the U.S. in subsection \ref{section:sensitivity}, we use data from FRED (output) and OECD (CPI index) for 1990:Q2-2019:Q3.
     \end{minipage}
     \label{table:a1}
 \end{table}
@@ -739,7 +743,7 @@ $\Delta$ Gini$_{t-2}$  & $0.001$ & $0.0004$ & $0.001$ & $-0.001$ & $0.001$ & $0.
 %--------------------------------------------------------------------------- 
 \multicolumn{9}{l}{\textit{Model 2:} Domestic shocks} \\[1em]
 
-Shock & $-0.0002$ & $0.003^{*}$ & $0.003^{*}$ & $0.0004$ & $-0.0004$ & $-0.0005$ & $-0.0005$ & $0.000$ \\
+Shock & $-0.0002$ & $0.003^{*}$ & $0.003^{*}$ & $0.0004$ & $-0.0004$ & $-0.0005$ & $-0.0005$ & $-0.0005$ \\
  & (0.001) & (0.002) & (0.002) & (0.002) & (0.001) & (0.001) & (0.002) & (0.002) \\ [0.5em]
  
 Shock$_{t-1}$  & $0.004^{**}$ & $0.004^{**}$ & $0.003^{*}$ & $0.004^{**}$ & $-0.001$ & $-0.001$ & $-0.002$ & $-0.0001$ \\
@@ -763,6 +767,7 @@ N & 177 & 168 & 159 & 150 & 177 & 168 & 159 & 150 \\
     \footnotesize  Note: Driscoll-Kraay errors in parenthesis, column headers represent estimation horizons. Model 1 includes country fixed effects and NBER recession dummy. Model 2 includes country and year fixed effects. Significance levels: $^{*}$p$<$0.1, $^{**}$p$<$0.05, $^{***}$p$<$0.01.
 \end{minipage}
 \end{table}
+
 %-----------------------------------------------------------------------------
 \newpage
 % Table - restricted and robustness coeff 
@@ -818,6 +823,8 @@ N & 118 & 109 & 100 & 91 & 118 & 109 & 100 & 91 \\ \hline
     \footnotesize  Note: Driscoll-Kraay errors in parenthesis, columns headers represent estimation horizons. Baseline regressions include additional controls for: growth of Gini (2 lags), shock (2 lags). Restricted sample is computed using baseline regressions, but only including entries, for which we have complete observations for all controls used in the estimation. For all controls, we introduce (2 lags): changes in the KOF index, changes in the labor market regulations, the share of exports to the US, bilateral US bank claims to GDP, and business confidence index. Significance levels: $^{*}$p$<$0.1, $^{**}$p$<$0.05, $^{***}$p$<$0.01.
 \end{minipage}
 \end{table}
+
+
 %-----------------------------------------------------------------------------
 % VAR impluses
 \newpage
