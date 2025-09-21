@@ -1278,14 +1278,11 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Quantitative Economics}
       \field{number}{4}
-      \field{title}{{Global trends in income inequality and income dynamics: New insights from GRID}}
+      \field{title}{Global trends in income inequality and income dynamics: New insights from GRID}
       \field{volume}{13}
       \field{year}{2022}
       \field{pages}{1321\bibrangedash 1360}
       \range{pages}{40}
-      \verb{doi}
-      \verb 10.3982/QE2260
-      \endverb
     \endentry
     \entry{Gygli2019}{article}{}{}
       \name{author}{4}{}{%
@@ -3395,14 +3392,11 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Quantitative Economics}
       \field{number}{4}
-      \field{title}{{Global trends in income inequality and income dynamics: New insights from GRID}}
+      \field{title}{Global trends in income inequality and income dynamics: New insights from GRID}
       \field{volume}{13}
       \field{year}{2022}
       \field{pages}{1321\bibrangedash 1360}
       \range{pages}{40}
-      \verb{doi}
-      \verb 10.3982/QE2260
-      \endverb
     \endentry
     \entry{Gygli2019}{article}{}{}
       \name{author}{4}{}{%
@@ -4252,6 +4246,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{gueven2014nature}
 \endrefsection
 \endinput
 
